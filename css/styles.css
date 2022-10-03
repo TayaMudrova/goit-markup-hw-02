@@ -1,18 +1,200 @@
-.list{
-list-style: none;
+body {
+  background-color: ffffff;
+  font-family: "Roboto", sans-serif;
 }
-.link{
-text-decoration: none;
+
+:root {
+  --accent-color: #2196f3;
+  --accent-light: #F5F4FA;
+  --main-color: #212121;
+  --sub-main-color: #757575;
+  --accent-background: #2f303a;
 }
-.logo{
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: bold;
-    color: 2196F3;
+
+.accent-bcg {
+  background-color: var(--accent-background);
 }
-.logo-color-dark{
-color: 000000;
+
+.list {
+  list-style: none;
 }
-.logo-color-light{
-color: FFFFFF;
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-color-dark {
+  color: #000000;
+}
+.logo-color-light {
+  color: #ffffff;
+}
+
+.menu {
+  color: var(--main-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.menu:hover, .menu:focus, .menu:active{
+  color: var(--accent-color);
+}
+
+.cont {
+  color: var(--sub-main-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.cont:hover, .cont:focus, .cont:active{
+  color: var(--accent-color);
+}
+
+.hero{
+  color: #ffffff;
+  font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+}
+
+.btn{
+  color: #ffffff;
+  background: #2196f3;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.hidden-title{
+display: none;
+}
+
+.features{
+  color: var(--main-color);
+  font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text{
+  color: var(--sub-main-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.title{
+  color: var(--main-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-title{
+  color: var(--main-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-text{
+  color: var(--sub-main-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.cont-foot-address{
+  color: #ffffff;
+  font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.cont-foot{
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.filtr{
+  color: var(--main-color);
+  background-color: var(--accent-light);
+border: none;
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0.03em;
+}
+
+.filtr:hover{
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.filtr-title{
+  color: var(--main-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filtr-text{
+  color: var(--sub-main-color);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
