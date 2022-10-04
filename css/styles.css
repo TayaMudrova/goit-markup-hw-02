@@ -1,14 +1,16 @@
-body {
-  background-color: ffffff;
-  font-family: "Roboto", sans-serif;
-}
-
 :root {
   --accent-color: #2196f3;
   --accent-light: #f5f4fa;
   --main-color: #212121;
   --sub-main-color: #757575;
+  --main-white: #ffffff;
+  --main-black: #000000;
   --accent-background: #2f303a;
+}
+
+body {
+  background-color: var(--main-white);
+  font-family: "Roboto", sans-serif;
 }
 
 .accent-bcg {
@@ -33,13 +35,13 @@ body {
   text-decoration: none;
 }
 .logo-color-dark {
-  color: #000000;
+  color: var(--main-black);
 }
 .logo-color-light {
-  color: #ffffff;
+  color: var(--main-white);
 }
 
-.menu {
+.menu-link {
   color: var(--main-color);
   font-family: "Roboto";
   font-style: normal;
@@ -49,39 +51,40 @@ body {
   letter-spacing: 0.02em;
 }
 
-.menu:hover,
-.menu:focus,
-.menu:active {
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
   color: var(--accent-color);
 }
 
-.cont {
+.contacts {
   color: var(--sub-main-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.cont:hover,
-.cont:focus,
-.cont:active {
+.contacts:hover,
+.contacts:focus,
+.contacts:active {
   color: var(--accent-color);
 }
 
-.hero {
-  color: #ffffff;
+.hero-title {
+  color: var(--main-white);
   font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .btn {
-  color: #ffffff;
+  color: var(--main-white);
   background: #2196f3;
   border-radius: 4px;
   font-family: "Roboto";
@@ -117,7 +120,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.title {
+.section-title {
   color: var(--main-color);
   font-family: "Roboto";
   font-style: normal;
@@ -147,8 +150,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-.cont-foot-address {
-  color: #ffffff;
+.contacts-footer-address {
+  color: var(--main-white);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -157,7 +160,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.cont-foot {
+.contacts-footer {
   color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto";
   font-style: normal;
@@ -180,8 +183,8 @@ body {
   cursor: pointer;
 }
 
-.filtr:hover {
-  color: #ffffff;
+.filtr:hover, .filtr:focus {
+  color: var(--main-white);
   background-color: var(--accent-color);
 }
 
