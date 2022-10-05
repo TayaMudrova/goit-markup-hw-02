@@ -6,6 +6,7 @@
   --main-white: #ffffff;
   --main-black: #000000;
   --accent-background: #2f303a;
+  --accent-grey: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -30,7 +31,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -43,11 +44,9 @@ body {
 
 .menu-link {
   color: var(--main-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -59,11 +58,9 @@ body {
 
 .contacts {
   color: var(--sub-main-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -75,10 +72,9 @@ body {
 
 .hero-title {
   color: var(--main-white);
-  font-family: Roboto;
   font-size: 44px;
   font-weight: 900;
-  line-height: 1.4;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
@@ -87,11 +83,10 @@ body {
   color: var(--main-white);
   background: #2196f3;
   border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   cursor: pointer;
 }
 
@@ -101,109 +96,86 @@ body {
 
 .features {
   color: var(--main-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .features-text {
   color: var(--sub-main-color);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .section-title {
   color: var(--main-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .team-title {
   color: var(--main-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .team-text {
   color: var(--sub-main-color);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .contacts-footer-address {
   color: var(--main-white);
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .contacts-footer {
-  color: rgba(255, 255, 255, 0.6);
-  font-family: "Roboto";
+  color: var(--accent-grey);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.2;
+  line-height: 1.71;
   letter-spacing: 0.02em;
 }
 
-.filtr {
+.filtr-btn {
   color: var(--main-color);
   background-color: var(--accent-light);
   border: none;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
 }
 
-.filtr:hover, .filtr:focus {
+.filtr-btn:hover, .filtr-btn:focus, .filtr-btn:active {
   color: var(--main-white);
   background-color: var(--accent-color);
 }
 
-.filtr-title {
+.filtr-section-title {
   color: var(--main-color);
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.filtr-text {
+.filtr-section-text {
   color: var(--sub-main-color);
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
